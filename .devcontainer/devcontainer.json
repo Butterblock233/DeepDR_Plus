@@ -1,0 +1,22 @@
+	{
+		"name": "DeepDR Plus",
+		"dockerFile": "./Dockerfile",
+		"context": "..",
+		"workspaceFolder": "/workspace",
+		"mounts": [
+			"source=${localWorkspaceFolder},target=/workspace,type=bind"
+		],
+		"runArgs": [
+			"--gpus",
+			"all"
+		],
+		"customizations": {
+			"vscode": {
+				"extensions": [
+					"ms-python.python",
+					"ms-python.debugpy"
+				]
+			}
+		}
+		
+	}
