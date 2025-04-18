@@ -250,7 +250,7 @@ class Trainer():
         print(self.cfg, file=self.training_log)
         print(self.scheduler)
         print(self.optimizer)
-        for epoch in range(self.cfg.epochs):
+        for epoch in range(1,self.cfg.epochs +1 ):
             self.epoch = epoch
             self.model.train()
             self.model.to(self.device)
