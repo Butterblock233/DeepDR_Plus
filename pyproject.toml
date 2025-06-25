@@ -19,7 +19,7 @@ dependencies = [
 ]
 [[tool.uv.index]]
 name = "pytorch-cu124"
-url = "https://mirror.nju.edu.cn/pytorch/whl/cu124"
+url = "https://mirrors.ustc.edu.cn/pypi/web/simple"
 explicit = true
 
 [tool.uv.sources]
